@@ -1,1 +1,27 @@
+Imagine that you are hired to enable data analytics; where would you start? How would you go about gathering requirements? Hint: Think backward from what the business may need. 
+According to this post https://www.startdataengineering.com/post/n-job-reponsibilities-of-a-data-engineer/, The main objective of the data engineering team(s) is to enable company-wide use of data for decision making
 
+My step as a data engineer will be as follows:
+1. Understanding the Business Context
+The first step is to understand the business objectives, challenges, and expectations related to data analytics. Try to get clarity on what the business aims to achieve through data analytics. Is it to increase sales, improve customer service, reduce operational costs and so on. Dcoument the use case to helo in better understanding of the required features
+
+2. Data Assessment
+Data Inventory: Make an inventory of all available data sources – external API, cloud storage, databases, static files,  etc. Evaluate the quality, volume, variety, and velocity of the data. Identify how to extract and what Datawarehouse will the data be stored.
+Data Quality Assessment: Identify data quality issues (accuracy, completeness, consistency, timeliness) that could affect analytics outcomes.
+Analyze current data systems, infrastructure, and  the analytics capabilities of the infrastructire to identify gaps and opportunities for improvement.
+
+3. Technology,Tools  and framework selection 
+Select Appropriate Tools: Based on the requirements and current IT infrastructure, select the right tools for data integration, warehousing, and analytics (BI tools, analytics platforms, etc.). modeling techniques exampleKimball modeling, Data Vault, Data Lake
+Common frameworks: Great expectations, dbt for data quality
+Common warehouses: Snowflake, Redshift, Bigquery, Clickhouse, Postgres
+Architecture Design: Design the data architecture that best supports the analytics needs, considering factors like scalability, security, and compliance.
+
+4. Execution and Iteration
+Development and Deployment: Start with the development of data pipelines, MLOPS, data storage solutions, and analytics applications as per the design.
+the Plan for scheduling pipeline, and sclalbility is considered.
+Iterative Testing and Feedback: Implement an iterative testing process with feedback loops from users to ensure the system meets business needs and is user-friendly.
+
+5. Monitoring and Optimization
+Performance Monitoring: Continuously monitor the system performance and user adoption.
+Ongoing Optimization: Regularly update the system as per new business requirements and technological advancements.
+This structured approach ensures that the analytics capabilities are aligned with the business objectives, and it helps in building a scalable and efficient data analytics platform.
